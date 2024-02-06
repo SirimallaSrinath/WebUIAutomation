@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM_PIM">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <parameter name="username" value="Admin"></parameter>
+	  <parameter name="password" value="admin123"></parameter>
+  <test name="TC_002_OrangeHRM_PIM_Parameters">
+    <classes>
+      <class name="com.testng.prac.TC_002_OrangeHRM_PIM_Parameters"/>
+    </classes>
+  </test> <!-- TC_002_OrangeHRM_PIM_Parameters -->
+</suite> <!-- OrangeHRM_PIM -->

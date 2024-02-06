@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_001_NewhireEnroll(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.alight.testscripts.TC_001_NewhireEnroll">
+        <methods>
+          <include name="BrowserOpen"/>
+          <include name="newhireEnroll"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- com.alight.testscripts.TC_001_NewhireEnroll -->
+    </classes>
+  </test> <!-- TC_001_NewhireEnroll(failed) -->
+</suite> <!-- Failed suite [Gmail] -->

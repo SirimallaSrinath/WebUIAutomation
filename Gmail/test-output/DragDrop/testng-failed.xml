@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DragDrop]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="TC_005_DragDrop(failed)">
+    <classes>
+      <class name="com.framework.leafScripts.TC_005_DragDrop">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="tc_005_DragDrop"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.framework.leafScripts.TC_005_DragDrop -->
+    </classes>
+  </test> <!-- TC_005_DragDrop(failed) -->
+</suite> <!-- Failed suite [DragDrop] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Leaf_SelectTool]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="TC_004_Leaf_SelectTool(failed)">
+    <classes>
+      <class name="com.framework.leafScripts.TC_004_Leaf_SelectTool">
+        <methods>
+          <include name="tc_004_Leaf_SelectTool"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.framework.leafScripts.TC_004_Leaf_SelectTool -->
+    </classes>
+  </test> <!-- TC_004_Leaf_SelectTool(failed) -->
+</suite> <!-- Failed suite [Leaf_SelectTool] -->

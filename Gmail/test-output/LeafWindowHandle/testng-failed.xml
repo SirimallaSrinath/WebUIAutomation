@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LeafWindowHandle]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="TC_001_Leaf_WindowHandle(failed)">
+    <classes>
+      <class name="com.framework.leafScripts.TC_001_Leaf_WinHandle">
+        <methods>
+          <include name="TC_001_Leaf_WinHandle"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.framework.leafScripts.TC_001_Leaf_WinHandle -->
+    </classes>
+  </test> <!-- TC_001_Leaf_WindowHandle(failed) -->
+</suite> <!-- Failed suite [LeafWindowHandle] -->

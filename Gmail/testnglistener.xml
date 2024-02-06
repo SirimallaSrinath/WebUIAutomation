@@ -1,0 +1,17 @@
+<suite name="Gmail" >
+
+<listeners>
+	<listener class-name = "com.testng.TestNGListener"/>
+</listeners>	  
+	  
+  <test name="TestNGListenerTC">
+    <classes>
+      <class name="com.testng.TestNGListenerTC"/>
+       <methods>
+		   <include name = "m1"/>
+		   <include name ="m2"/>
+	   </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
