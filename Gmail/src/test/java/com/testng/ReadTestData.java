@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class ReadTestData {
 	@Test
 	public void readData() throws Exception {
-		File file = new File("C:\\Users\\Srinath\\Downloads\\Testdata.xlsx");
+		File file = new File("D:\\srinath\\Testdata.xlsx");
 		FileInputStream inputStream = new FileInputStream(file);
 		Workbook workbook = WorkbookFactory.create(inputStream);
 		System.out.println("No of sheets: "+workbook.getNumberOfSheets());
