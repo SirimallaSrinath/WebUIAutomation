@@ -7,7 +7,7 @@
       <class name="com.framework.testscripts.SL_FullTransaction">
         <methods>
           <include name="openBrowser"/>
-          <include name="slFullTransaction" invocation-numbers="0 1"/>
+          <include name="slFullTransaction"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.framework.testscripts.SL_FullTransaction -->

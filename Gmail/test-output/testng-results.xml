@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-07T18:21:07 IST" name="Default suite" finished-at="2024-02-07T18:21:29 IST" duration-ms="22452">
+  <suite started-at="2024-03-07T16:21:01 IST" name="SL_FullTransaction" finished-at="2024-03-07T16:23:22 IST" duration-ms="141643">
     <groups>
     </groups>
-    <test started-at="2024-02-07T18:21:07 IST" name="Default test" finished-at="2024-02-07T18:21:29 IST" duration-ms="22452">
-      <class name="com.testng.TC_005_Dataprovider">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.testng.TC_005_Dataprovider@4f0f2942]" started-at="2024-02-07T18:21:07 IST" name="openBrowser" finished-at="2024-02-07T18:21:13 IST" duration-ms="6313" status="PASS">
+    <test started-at="2024-03-07T16:21:01 IST" name="SL_FullTransaction" finished-at="2024-03-07T16:23:22 IST" duration-ms="141643">
+      <class name="com.framework.testscripts.SL_FullTransaction">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.framework.testscripts.SL_FullTransaction@1500b2f3]" started-at="2024-03-07T16:21:01 IST" name="openBrowser" finished-at="2024-03-07T16:21:05 IST" duration-ms="4102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.TC_005_Dataprovider@4f0f2942]" started-at="2024-02-07T18:21:13 IST" name="login" data-provider="getTestData" finished-at="2024-02-07T18:21:19 IST" duration-ms="6076" status="PASS">
+        <test-method signature="slFullTransaction(java.lang.String,java.lang.String)[pri:0, instance:com.framework.testscripts.SL_FullTransaction@1500b2f3]" started-at="2024-03-07T16:21:10 IST" name="slFullTransaction" data-provider="getTestDataSL" finished-at="2024-03-07T16:22:16 IST" duration-ms="66259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,8 +33,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.TC_005_Dataprovider@4f0f2942]" started-at="2024-02-07T18:21:19 IST" name="login" data-provider="getTestData" finished-at="2024-02-07T18:21:24 IST" duration-ms="4842" status="PASS">
+        </test-method> <!-- slFullTransaction -->
+        <test-method signature="slFullTransaction(java.lang.String,java.lang.String)[pri:0, instance:com.framework.testscripts.SL_FullTransaction@1500b2f3]" started-at="2024-03-07T16:22:16 IST" name="slFullTransaction" data-provider="getTestDataSL" finished-at="2024-03-07T16:23:19 IST" duration-ms="63026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,28 +49,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.TC_005_Dataprovider@4f0f2942]" started-at="2024-02-07T18:21:24 IST" name="login" data-provider="getTestData" finished-at="2024-02-07T18:21:29 IST" duration-ms="4680" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.TC_005_Dataprovider@4f0f2942]" started-at="2024-02-07T18:21:29 IST" name="closeBrowser" finished-at="2024-02-07T18:21:29 IST" duration-ms="463" status="PASS">
+        </test-method> <!-- slFullTransaction -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.framework.testscripts.SL_FullTransaction@1500b2f3]" started-at="2024-03-07T16:23:19 IST" name="closeBrowser" finished-at="2024-03-07T16:23:22 IST" duration-ms="2885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.testng.TC_005_Dataprovider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.framework.testscripts.SL_FullTransaction -->
+    </test> <!-- SL_FullTransaction -->
+  </suite> <!-- SL_FullTransaction -->
 </testng-results>

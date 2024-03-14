@@ -70,7 +70,7 @@ public class SL_FullTransaction extends FrameworkScript{
 
 	@DataProvider(name = "getTestDataSL")
 	public String[][] getTestDataSL() throws Exception {
-		return ExcelHelper.getTestData("C:\\Testdata.xlsx","Sheet1");
+		return ExcelHelper.getTestData("C:\\Users\\HP\\git\\repository\\Gmail\\Testdata\\Testdata.xlsx","Sheet1");
 	}
 
 }

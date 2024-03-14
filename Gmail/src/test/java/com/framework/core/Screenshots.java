@@ -12,7 +12,7 @@ public class Screenshots extends FrameworkScript{
 
 	public void captureFull(WebDriver driver) {
 
-		Shutterbug.shootPage(driver,Capture.FULL).save("C:\\Users\\HP\\Downloads\\screenshot\\SLFullTran.PNG");
+		Shutterbug.shootPage(driver,Capture.FULL).save("C:\\Users\\HP\\git\\repository\\Gmail\\screenshot\\SLFullTran.PNG");
 	}
 
 }
