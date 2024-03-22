@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ppt Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_002_AdminSelect(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.orange.testscripts.TC_002_AdminSelect">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="adminSelect" invocation-numbers="0 1"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orange.testscripts.TC_002_AdminSelect -->
+    </classes>
+  </test> <!-- TC_002_AdminSelect(failed) -->
+</suite> <!-- Failed suite [Ppt Login] -->
