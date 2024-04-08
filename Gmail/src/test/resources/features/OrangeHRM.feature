@@ -1,6 +1,6 @@
 Feature: HRM Application Automation using Cucumber
 
-  Scenario: login
+  Scenario: loginApp
     Given open browser and enter application url
     When enter username,password and click on login
     Then verification for homepage

@@ -3,7 +3,7 @@
 
 
 <suite parallel="classes" name="SL_FullTransaction">
-	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browser" value="CHROME"></parameter>
   <test name="SL_FullTransaction">
 	  <classes>
 		  <class name="com.framework.testscripts.SL_FullTransaction">

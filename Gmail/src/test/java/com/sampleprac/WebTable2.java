@@ -18,7 +18,7 @@ public class WebTable2 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
 		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));
-		driver.get("https://datatables.net/extensions/select/examples/initialisation/checkbox.html");
+		driver.get("https://datatables.net/extensions/select/examples/initialisation/simple.html");
 		List<WebElement> totalrows = driver.findElements(By.xpath("//table[@id='example']//tbody//tr"));
 		List<WebElement> totalcolumns =driver.findElements(By.xpath("//table[@id='example']//tbody//tr[1]//td"));
 

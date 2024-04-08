@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.framework.leafScripts.TC_005_DragDrop">
+      <class name="com.framework.testscripts.TC_003_AddRemoveCart">
         <methods>
           <include name="openBrowser"/>
-          <include name="tc_005_DragDrop"/>
+          <include name="addRemove"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.framework.leafScripts.TC_005_DragDrop -->
+      </class> <!-- com.framework.testscripts.TC_003_AddRemoveCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

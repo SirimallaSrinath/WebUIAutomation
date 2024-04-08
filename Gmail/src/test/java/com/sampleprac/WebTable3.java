@@ -18,13 +18,13 @@ public class WebTable3 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
 		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));
-		driver.get("https://datatables.net/extensions/select/examples/initialisation/checkbox.html");
+		driver.get("https://datatables.net/extensions/select/examples/initialisation/simple.html");
 		List<WebElement> totalrows = driver.findElements(By.xpath("//table[@id='example']//tbody//tr"));
 		List<WebElement> totalcolumns =driver.findElements(By.xpath("//table[@id='example']//tbody//tr[1]//td"));
 		int countrylondonoccurance = 0;
 		
 		for(int i=1;i<totalrows.size();i++) {
-			String country = driver.findElement(By.xpath("//table[@id='example']//tbody//tr["+i+"]//td[4]")).getText();
+			String country = driver.findElement(By.xpath("//table[@id='example']//tbody//tr["+i+"]//td[3]")).getText();
 			if(country.equals("London")) {
 				countrylondonoccurance = countrylondonoccurance+1;
 			}

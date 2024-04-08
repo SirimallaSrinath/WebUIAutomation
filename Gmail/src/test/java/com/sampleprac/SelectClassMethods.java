@@ -24,7 +24,7 @@ public class SelectClassMethods {
 		driver.switchTo().frame("iframeResult");
 		WebElement carsdp = driver.findElement(By.xpath("//select[@name='cars']"));
 		Select seldp = new Select(carsdp);
-		System.out.println("Multiple options available : "+seldp.isMultiple());
+		System.out.println("Multiple Select options available : "+seldp.isMultiple());
 		seldp.selectByIndex(1);
 		Thread.sleep(3000);
 		seldp.selectByValue("audi");

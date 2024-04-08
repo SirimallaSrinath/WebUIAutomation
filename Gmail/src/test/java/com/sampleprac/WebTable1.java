@@ -19,7 +19,7 @@ public class WebTable1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
 		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));
-		driver.get("https://datatables.net/extensions/select/examples/initialisation/checkbox.html");
+		driver.get("https://datatables.net/extensions/select/examples/initialisation/simple.html");
 		Thread.sleep(2000);
 		//No of tables in WebPage
 		int tablect = driver.findElements(By.cssSelector("table")).size();

@@ -1,69 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T20:29:32 IST" name="Suite" finished-at="2024-03-20T20:29:36 IST" duration-ms="3636">
+  <suite started-at="2024-03-25T18:34:18 IST" name="Default suite" finished-at="2024-03-25T18:34:21 IST" duration-ms="2461">
     <groups>
     </groups>
-    <test started-at="2024-03-20T20:29:32 IST" name="Test1" finished-at="2024-03-20T20:29:36 IST" duration-ms="3164">
-      <class name="day8.CreateUser">
-        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:day8.CreateUser@738dc9b]" started-at="2024-03-20T20:29:32 IST" name="createUser" finished-at="2024-03-20T20:29:36 IST" duration-ms="3080" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7fd7a283]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-03-25T18:34:18 IST" name="Default test" finished-at="2024-03-25T18:34:21 IST" duration-ms="2461">
+      <class name="practice.StudentData">
+        <test-method signature="studentData()[pri:0, instance:practice.StudentData@d86a6f]" started-at="2024-03-25T18:34:18 IST" name="studentData" finished-at="2024-03-25T18:34:21 IST" duration-ms="2363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- day8.CreateUser -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-03-20T20:29:36 IST" name="Test2" finished-at="2024-03-20T20:29:36 IST" duration-ms="157">
-      <class name="day8.GetUser">
-        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:day8.GetUser@7ce026d3]" started-at="2024-03-20T20:29:36 IST" name="getUser" finished-at="2024-03-20T20:29:36 IST" duration-ms="148" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@520c3dcb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUser -->
-      </class> <!-- day8.GetUser -->
-    </test> <!-- Test2 -->
-    <test started-at="2024-03-20T20:29:36 IST" name="Test3" finished-at="2024-03-20T20:29:36 IST" duration-ms="122">
-      <class name="day8.UpdateUser">
-        <test-method signature="update_User(org.testng.ITestContext)[pri:0, instance:day8.UpdateUser@268f106e]" started-at="2024-03-20T20:29:36 IST" name="update_User" finished-at="2024-03-20T20:29:36 IST" duration-ms="113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@448892f1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update_User -->
-      </class> <!-- day8.UpdateUser -->
-    </test> <!-- Test3 -->
-    <test started-at="2024-03-20T20:29:36 IST" name="Test4" finished-at="2024-03-20T20:29:36 IST" duration-ms="87">
-      <class name="day8.DeleteUser">
-        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:day8.DeleteUser@31ea9581]" started-at="2024-03-20T20:29:36 IST" name="deleteUser" finished-at="2024-03-20T20:29:36 IST" duration-ms="75" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@596d17f4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- day8.DeleteUser -->
-    </test> <!-- Test4 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- studentData -->
+      </class> <!-- practice.StudentData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

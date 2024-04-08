@@ -10,9 +10,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class ActionsKeys {
-	
+
 	public static void main(String[] args) throws Exception{
-		
+
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -30,12 +30,12 @@ public class ActionsKeys {
 		keys.click(audi);
 		Thread.sleep(2000);
 		keys.keyUp(Keys.CONTROL);
-		
+
+
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		Thread.sleep(2000);
-		driver.switchTo().defaultContent();
-		System.out.println("Webpage Title : "+driver.getTitle());
-		driver.close();
+		Thread.sleep(2000); driver.switchTo().defaultContent();
+		System.out.println("Webpage Title : "+driver.getTitle()); driver.close();
+
 	}
 
 }

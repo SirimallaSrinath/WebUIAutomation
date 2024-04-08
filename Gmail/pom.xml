@@ -83,7 +83,7 @@
     <version>3.1.2</version>
     <configuration>
 		<suiteXmlFiles>
-			<suiteXmlFile>testng_SL_FullTransaction.xml</suiteXmlFile>
+			<suiteXmlFile>testngframework.xml</suiteXmlFile>
 		</suiteXmlFiles>
 	</configuration>
 		  </plugin>

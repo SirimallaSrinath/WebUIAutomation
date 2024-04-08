@@ -52,7 +52,7 @@ public class TC_001_AddRemoveCart extends FrameworkScript{
 
 	@DataProvider(name = "getTestData")
 	public String[][] getTestData() throws Exception {
-		return ExcelHelper.getTestData("C:\\Testdata.xlsx", "Sheet1");
+		return ExcelHelper.getTestData("C:\\Users\\HP\\git\\repository\\Gmail\\Testdata\\Testdata.xlsx", "Sheet1");
 	}
 	
 

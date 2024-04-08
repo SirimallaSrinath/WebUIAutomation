@@ -21,14 +21,10 @@ public class ActionsAutocash {
 		driver.get("https://www.apsrtconline.in/oprs-web/guest/home.do?h=1");
 		WebElement fromplace = driver.findElement(By.id("fromPlaceName"));
 		Actions fpa = new Actions(driver);
-		fpa.sendKeys(fromplace, "GOA").perform();
-		Thread.sleep(5000);
-		//fpa.sendKeys(Keys.ARROW_DOWN).perform();
-		fpa.keyDown(Keys.ARROW_DOWN).perform();
-		Thread.sleep(5000);
+		fpa.sendKeys(fromplace, "hyd");
+		fpa.sendKeys(Keys.ARROW_DOWN).perform();
+		Thread.sleep(2000);
 		fpa.sendKeys(Keys.ENTER).perform();
-		Thread.sleep(3000);
-		driver.close();
 	}
 
 }

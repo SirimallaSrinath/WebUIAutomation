@@ -24,17 +24,17 @@ public class Screenshot1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(5));
 		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(5));
-		driver.get("https://datatables.net/extensions/select/examples/initialisation/checkbox.html");
+		driver.get("https://datatables.net/extensions/select/examples/initialisation/simple.html");
 		Thread.sleep(3000);
 		WebElement table = driver.findElement(By.xpath("//table[@id='example']"));
 		File source = table.getScreenshotAs(OutputType.FILE);
-		File target = new File("C:\\Users\\Srinath\\Downloads\\img1.png");
+		File target = new File("C:\\Users\\HP\\Downloads\\img1.png");
 		FileHandler.copy(source, target);
 
 		File se = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File dn = new File("C:\\Users\\Srinath\\Downloads\\img2.png");
+		File dn = new File("C:\\Users\\HP\\Downloads\\img2.png");
 		FileHandler.copy(se, dn);
 		
-		Shutterbug.shootPage(driver,Capture.FULL).save("C:\\Users\\Srinath\\Downloads\\img3.png");
+		Shutterbug.shootPage(driver,Capture.FULL).save("C:\\Users\\HP\\Downloads\\img3.png");
 	}
 }
