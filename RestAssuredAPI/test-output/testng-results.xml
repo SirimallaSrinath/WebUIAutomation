@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-25T18:34:18 IST" name="Default suite" finished-at="2024-03-25T18:34:21 IST" duration-ms="2461">
+  <suite started-at="2024-04-16T20:48:09 IST" name="Default suite" finished-at="2024-04-16T20:48:12 IST" duration-ms="2603">
     <groups>
     </groups>
-    <test started-at="2024-03-25T18:34:18 IST" name="Default test" finished-at="2024-03-25T18:34:21 IST" duration-ms="2461">
-      <class name="practice.StudentData">
-        <test-method signature="studentData()[pri:0, instance:practice.StudentData@d86a6f]" started-at="2024-03-25T18:34:18 IST" name="studentData" finished-at="2024-03-25T18:34:21 IST" duration-ms="2363" status="PASS">
+    <test started-at="2024-04-16T20:48:09 IST" name="Default test" finished-at="2024-04-16T20:48:12 IST" duration-ms="2603">
+      <class name="practice.OptionsMethod">
+        <test-method signature="optionsMethod()[pri:0, instance:practice.OptionsMethod@738dc9b]" started-at="2024-04-16T20:48:09 IST" name="optionsMethod" finished-at="2024-04-16T20:48:12 IST" duration-ms="2515" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- studentData -->
-      </class> <!-- practice.StudentData -->
+        </test-method> <!-- optionsMethod -->
+      </class> <!-- practice.OptionsMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day8.CreateUser">
+      <class name="rawpractice.ReadUser">
         <methods>
-          <include name="createUser"/>
+          <include name="readData" invocation-numbers="0"/>
         </methods>
-      </class> <!-- day8.CreateUser -->
+      </class> <!-- rawpractice.ReadUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

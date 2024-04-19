@@ -67,5 +67,5 @@ public class HTTPRequests {
 			.statusCode(204)
 			.log().all();
 	}
-
+	
 }

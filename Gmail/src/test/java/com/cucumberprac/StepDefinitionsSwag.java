@@ -3,6 +3,7 @@ package com.cucumberprac;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
 import io.cucumber.java.en.And;
@@ -17,7 +18,7 @@ public class StepDefinitionsSwag {
 	@Given("user launch url")
 	public void user_launch_url() {
 	    WebDriverManager.chromedriver().setup();
-	    driver = new ChromeDriver();
+	    driver = new EdgeDriver();
 	    driver.get("https://www.saucedemo.com/v1/");
 	    driver.manage().window().maximize();
 	}
