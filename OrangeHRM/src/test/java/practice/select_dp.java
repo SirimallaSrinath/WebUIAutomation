@@ -17,7 +17,6 @@ public class select_dp {
 	
 	@Test
 	public void selectdp() throws Exception{
-		
 		WebDriverManager.edgedriver().setup();
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
