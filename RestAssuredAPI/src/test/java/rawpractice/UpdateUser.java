@@ -12,6 +12,7 @@ import com.github.javafaker.Faker;
 public class UpdateUser {
 	@Test
 	public void updateUser(ITestContext context) {
+		
 		String id = (String) context.getSuite().getAttribute("user_id");
 		
 		Faker faker = new Faker();
