@@ -20,7 +20,7 @@ public class HTTPRequests {
 			
 		.then()
 			.statusCode(200)
-			.body("page",equalTo(2)) // RestAssured Assertion
+			.body("page",equalTo(2)) //RestAssured Assertion
 			.log().all();
 	}
 	
