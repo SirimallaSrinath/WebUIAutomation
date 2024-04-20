@@ -17,6 +17,7 @@ public class CreateUser {
 	
 	@Test()
 	public void createUser(ITestContext context) {
+		
 		Faker faker = new Faker();
 		JSONObject jsonobj = new JSONObject();
 		
