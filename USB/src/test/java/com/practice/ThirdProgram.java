@@ -2,5 +2,7 @@ package com.practice;
 
 public class ThirdProgram {
 
-  System.out.println("Third Program Successful");
+  public static void main(String[] args){
+   System.out.println("Third Program Successful"); 
+  }
 }
