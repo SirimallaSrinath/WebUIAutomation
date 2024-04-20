@@ -17,9 +17,10 @@ public class HTTPRequests {
 		given()
 		.when()
 			.get("https://reqres.in/api/users?page=2")
+			
 		.then()
 			.statusCode(200)
-			.body("page",equalTo(2)) //RestAssured Assertion
+			.body("page",equalTo(2)) // RestAssured Assertion
 			.log().all();
 	}
 	
